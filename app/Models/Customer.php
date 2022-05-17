@@ -16,6 +16,9 @@ class Customer extends Model
         'age',
         'phone'
     ];
-       
+       public function pharmacy()
+       {
+           return $this->belongsTo(pharmacy::class);
+       }
     
 }

@@ -13,7 +13,10 @@ class Pharmacy extends Model
         'name',
         'address'
     ];
-       
+    public function Customers()
+    {
+        return $this->hasMany(Customer::class);
+    }
     
    
 }

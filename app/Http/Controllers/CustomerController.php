@@ -6,8 +6,7 @@ use Illuminate\Http\Request;
 
 class CustomerController extends Controller
 {
-        //For testing purpose, use hard coded data, till we design UI
-        
+       
   public function register()
   {
   return view('Customer.register');
